@@ -31,7 +31,7 @@ function draw(startX, startY, len, angle) {
 function yourFunction(){
     ctx.clearRect(0, 0, 1000, 1000);
     draw(500,1000,150,0);
-    setTimeout(yourFunction, 500);
+    setTimeout(yourFunction, 1000);
 }
 yourFunction();
  
